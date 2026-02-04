@@ -1,2 +1,29 @@
 # job-automation-poc
-To confirm that job postings from platforms like LinkedIn can be automatically collected, processed, and stored in a standardized schema for future automation such as filtering, AI-based resume matching, and direct job applications.
+
+Repository structure:
+
+job-automation-poc/
+│
+├── README.md
+│
+├── workflows/
+│   └── n8n-job-ingestion-poc.json
+│
+├── data/
+│   ├── sample-input/
+│   │   └── indeed-sample.json
+│   │
+│   └── sample-output/
+│       └── jobs-sheet-sample.csv
+│
+├── docs/
+│   ├── workflow-overview.md
+│   └── data-schema.md
+│
+├── screenshots/
+│   ├── n8n-workflow.png
+│   └── job-output-sheet.png
+│
+└── .gitignore
+
+This commit adds the repository folder/file structure and placeholder files.
